@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/lavaorg/lua"
 )
 
 func Test_luar_complex128(t *testing.T) {

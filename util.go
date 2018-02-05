@@ -6,7 +6,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/lavaorg/lua"
 )
 
 func check(L *lua.LState, idx int) (ref reflect.Value, mt *Metatable) {

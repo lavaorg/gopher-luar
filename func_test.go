@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/lavaorg/lua"
 )
 
 func Test_func_variableargs(t *testing.T) {

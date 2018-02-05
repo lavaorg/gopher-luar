@@ -3,7 +3,7 @@ package luar
 import (
 	"reflect"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/lavaorg/lua"
 )
 
 func structIndex(L *lua.LState) int {

@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/lavaorg/lua"
 )
 
 func Test_functhread(t *testing.T) {

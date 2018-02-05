@@ -1,5 +1,5 @@
 // Package luar provides custom type reflection to gopher-lua
-// (https://github.com/yuin/gopher-lua).
+// (https://github.com/lavaorg/lua).
 //
 // Go to Lua conversions
 //
@@ -42,4 +42,4 @@
 // when functions like New are called, and potentially when luar-created values
 // are used. It is your responsibility to ensure that concurrent access of the
 // state's registry does not happen.
-package luar // import "layeh.com/gopher-luar"
+package luar

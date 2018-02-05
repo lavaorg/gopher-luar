@@ -3,7 +3,7 @@ package luar
 import (
 	"testing"
 
-	"github.com/yuin/gopher-lua"
+	"github.com/lavaorg/lua"
 )
 
 func Test_slice(t *testing.T) {
